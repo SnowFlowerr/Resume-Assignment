@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.mainBox{
+    width: 44vw;
+    padding: 1.6vw;
+    margin: auto;
+    background-color: #232323;
+}
+.profileInfo{
+    display: flex;
+    padding: 0.2vw;
+    /* align-items: center; */
+}
+.infoBox{
+    font-family: gothom;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1vw;
+    margin-left: 1vw;
+    margin-top: 0.2vw;
+}
+.infoBox div{
+    color: white;
+    font-weight: 400;
+}
+.infoBox img{
+    transform: translateY(0.5vw);
+    width: 1.6vw;
+}
+.about{
+    margin-top: 1.2vw;
+    display: flex;
+}
+.profilePic{
+    border: 0.3vw solid red;
+    width: 7.5vw;
+    height: 7.5vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover{
+    border: 0.3vw solid #232323;
+    background-color: #232323;
+    /* border: 0.3vw solid red; */
+    height: 8vw;
+    width: 3vw;
+    position: relative;
+    align-content: center;
+    box-sizing: border-box;
+}
+.cover2{
+    border: 0.3vw solid #232323;
+    background-color: #232323;
+    /* border: 0.3vw solid red; */
+    width: 8vw;
+    height: 3vw;
+    margin-left: -2.8vw;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+.cover2 img{
+    margin-top: -2.3vw;
+    margin-left: 0.25vw;
+    width: 7vw;
+}
+.detail{
+    margin-left: 1vw;
+}
+.detailProfile{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+.name{
+    background-color: #414141;
+    padding: 0.6vw;
+    font-weight: 900;
+    font-size: 1.6vw;
+    color: red;
+}
+.position{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+.top10{
+    height: 2.5vw;
+    width: 2.5vw;
+    background-color: red;
+    margin-right: 0.5vw;
+    border-radius: 0.3vw;
+    text-align: center;
+    align-content: center;
+    font-size: 1vw;
+    color: black;
+    line-height: 0.9vw;
+}
+.topText{
+    font-size: 1vw;
+}
+.detailText{
+    font-size: 0.85vw;
+    margin-top: 1.4vw;
+    font-weight: 400;
+}
+.experience{
+    margin-top: 1.5vw;
+}
+.experienceTitle{
+    color: #A9A9A9;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+.experienceBox{
+    border: 0.2vw solid #414141;
+    margin-top: 0.7vw;
+    padding: 0.5vw;
+}
+.companyName{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1vw;
+    font-weight: 700;
+}
+.expDate{
+    color: #F5F5F5;
+    font-size: 0.8vw;
+    font-weight: 400;
+}
+.expLine{
+    border:solid red;
+    height: 0.1vw;
+    width: 10vw;
+}
+.projects{
+    display: flex;
+    gap: 0.5vw;
+    margin-top: 0.5vw;
+}
+.projects div{
+    border: 0.1vw solid white;
+    border-bottom: none;
+    padding: 0.2vw;
+    font-size: 0.8vw;
+    font-weight: 400;
+}
+.projectText{
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+    padding: 0;
+    margin-left: 1vw;
+    color: #F5F5F5;
+    font-weight: 400;
+}
+.SkillandEdu{
+    display: flex;
+    margin-top: 1vw;
+    gap: 0.6vw;
+}
+.skills,.education{
+    width: 100%;
+}
+.skillsTitle, .educationTitle{
+    font-size: 1vw;
+    font-weight: 700;
+    color: red;
+}
+.skillbox{
+    margin-top: 0.6vw;
+    background-color: #414141;
+    padding: 0.8vw;
+    height: 6.5vw;
+    font-size: 0.8vw;
+    font-weight: 700;
+}
+.skillbox ul{
+    padding: 0;
+    margin-left: 1.2vw;
+    margin-top: 0.6vw;
+    font-size: 0.8vw;
+    font-weight: 400;
+}
+.eduDate{
+    text-align: right;
+    margin-top: 0.8vw;
+}
+.achievement{
+    font-size: 1vw;
+    font-weight: 700;
+    color: red;
+    margin-top: 0.8vw;
+}
+.achieveText{
+    margin-top: 0.6vw;
+    background-color: #414141;
+    padding: 0.8vw;
+    font-size: 0.8vw;
+    font-weight: 700;
+    color: white;
+}
+@media screen and (max-width:750px) {
+    .mainBox{
+        width: 100vw;
+        padding: 2vw;
+    }
+    .profileInfo{
+        padding: 0.5vw;
+    }
+    .infoBox{
+        gap: 2vw;
+        font-size: 2vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+    }
+    .infoBox img{
+        transform: translateY(1vw);
+        width: 3.4vw;
+    }
+    .about{
+        margin-top: 2.4vw;
+    }
+    .profilePic{
+        border: 0.5vw solid red;
+        width: 15vw;
+        height: 15vw;
+    }
+    .cover{
+        height: 16vw;
+        width: 6vw;
+    }
+    .cover2{
+        width: 16vw;
+        height: 6vw;
+        margin-left: -5.6vw;
+    }
+    .cover2 img{
+        margin-top: -4.4vw;
+        margin-left: 1vw;
+        width: 14vw;
+    }
+    .detail{
+        margin-left: 2vw;
+    }
+    .detailProfile{
+        gap: 2vw;
+    }
+    .name{
+        padding: 1.2vw;
+        font-weight: 900;
+        font-size: 3.2vw;
+    }
+    .position{
+        font-weight: 800;
+    }
+    .top10{
+        height: 5vw;
+        width: 5vw;
+        background-color: red;
+        margin-right: 1vw;
+        border-radius: 0.6vw;
+        font-size: 2vw;
+        color: black;
+        line-height: 1.7vw;
+    }
+    .topText{
+        font-size: 2vw;
+    }
+    .detailText{
+        font-size: 2vw;
+        margin-top: 2.3vw;
+    }
+    .experience{
+        margin-top: 3vw;
+    }
+    .experienceTitle{
+        font-size: 2.4vw;
+    }
+    .experienceBox{
+        margin-top: 1.4vw;
+        padding: 1vw;
+    }
+    .companyName{
+        gap: 2vw;
+        font-size: 2vw;
+    }
+    .expDate{
+        font-size: 1.6vw;
+    }
+    .expLine{
+        border:solid red;
+        height: 0.1vw;
+        width: 20vw;
+    }
+    .projects{
+        gap: 1vw;
+        margin-top: 1vw;
+    }
+    .projects div{
+        border: 0.2vw solid #F5F5F5;
+        border-bottom: none;
+        padding: 0.4vw;
+        font-size: 1.7vw;
+    }
+    .projectText{
+        font-size: 1.6vw;
+        margin-top: 1vw;
+        padding: 0;
+        margin-left: 2vw;
+        color: #F5F5F5;
+    }
+    .SkillandEdu{
+        display: flex;
+        margin-top: 2vw;
+        gap: 1.2vw;
+    }
+    .skillsTitle, .educationTitle{
+        font-size: 2vw;
+    }
+    .skillbox{
+        margin-top: 1.2vw;
+        padding: 1.6vw;
+        height: 13.5vw;
+        font-size: 1.6vw;
+    }
+    .skillbox ul{
+        padding: 0;
+        margin-left: 2.4vw;
+        margin-top: 1.2vw;
+        font-size: 1.6vw;
+        font-weight: 400;
+    }
+    .eduDate{
+        margin-top: 1.6vw;
+    }
+    .achievement{
+        font-size: 2vw;
+        margin-top: 1.6vw;
+    }
+    .achieveText{
+        margin-top: 1.2vw;
+        padding: 1.6vw;
+        font-size: 1.6vw;
+    }
+}
