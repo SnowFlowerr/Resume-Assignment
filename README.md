@@ -29,16 +29,16 @@ To view the resume web page, simply open the index.html file in your web browser
     open index.html ```
 
 ## File Structure
-**index.html:** The main HTML file that structures the web page.
-**index.css:** The CSS file that styles the web page.
-**Assets/:** A directory containing image assets used in the web page.
+**index.html:** The main HTML file that structures the web page. <br>
+**index.css:** The CSS file that styles the web page. <br>
+**Assets/:** A directory containing image assets used in the web page. <br>
 
 ## Customization
 
 To customize the resume web page, you can edit the index.html and index.css files. Here are some common customizations:
 
-**Profile Information:** Update the contact details and profile picture in the .profileInfo section.
-**Work Experience:** Modify the job titles, company names, dates, and descriptions in the .experience section.
-**Skills:** Add or remove skills in the .skills section.
-**Education:** Update the education details in the .education section.
-**Achievements:** Modify the achievements in the .achievement section.
+**Profile Information:** Update the contact details and profile picture in the .profileInfo section. <br>
+**Work Experience:** Modify the job titles, company names, dates, and descriptions in the .experience section. <br>
+**Skills:** Add or remove skills in the .skills section. <br>
+**Education:** Update the education details in the .education section. <br>
+**Achievements:** Modify the achievements in the .achievement section. <br>
