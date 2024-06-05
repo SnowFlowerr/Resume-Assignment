@@ -25,8 +25,8 @@ This is a simple HTML-based resume web page. It contains various sections such a
 ## Usage
 
 To view the resume web page, simply open the index.html file in your web browser.
-    ```bash
-    open index.html
+    ```
+    open index.html ```
 
 ## File Structure
 index.html: The main HTML file that structures the web page.
